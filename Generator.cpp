@@ -9,21 +9,19 @@ using namespace std;
 
 void Utility::printFrame(vector<vector<char>> &list) {
 	int lineIndex = 0;
-	cout << "generated matrix: " << endl;
+	if (list.size()==0)
+	{
+		cout << "Nothing to print !!" << endl;
+	}
 	
-	for (int i = 0; i < list.size(); ++i) {
+	for (int i = 0; i < list.size(); i++) {
 		lineIndex = lineIndex+1;
 		cout << lineIndex << " ";
-		for (int j = 0; j < list[i].size(); ++j) {
+		for (int j = 0; j < list[i].size(); j++) {
 			cout << list[i][j] << "";
 		}
 	cout << endl;
 	}
-}
-
-
-Generator::Generator(): m_message("coucou les loulous") {
-	cout << m_message << endl;
 }
 
 vector<vector<char>> Generator::generateRandomList(const int &listLength, const int &wordLength, const std::string &generatorAlpha) {
