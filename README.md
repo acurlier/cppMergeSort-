@@ -1,8 +1,5 @@
 # cppMergeSort
 
-## Name
-cppMergeSort
-
 ## Description
 This program implements the mergesort algorithm on vector<vector> items that are randomly generated. It provides options to the user to evaluate the performance and display results.
 This mainly served me as an introduction to cpp programming and algorithm implementation.
@@ -21,12 +18,12 @@ run the executable using ./app followed by the arguments as explained in the nex
 The program allows two modes of operation:
     
     -i listLength wordLength
-        This mode is a user-defined performance assessment that asks for the the length of the list to be sorted (listLength) and the length of the words on that list (wordLength). 
+
+This mode is a user-defined performance assessment that asks for the the length of the list to be sorted (listLength) and the length of the words on that list (wordLength). 
     
     -p wordLength
-        this mode is intended for performance comparison and verification of the O(n) time performance of the implementation of mergesort. It will successively run iterations of
-        lists made of 10, 50, 100, 1000, 10000 and 100000 words and display the results in terms of execution time. The length of the words (wordLength) is provided by the user.
-        The time taken to generate the random lists is not considered by the counter.
+
+this mode is intended for performance comparison and verification of the O(n) time performance of the implementation of mergesort. It will successively run iterations of lists made of 10000, 20000 ,50000 ,75000, 100000 and 200000 words and display the results in terms of execution time. The length of the words (wordLength) is provided by the user. The time taken to generate the random lists is not considered by the counter.
 
 ## Project status
 Closed

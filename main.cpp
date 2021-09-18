@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
 
     } else  if (strcmp(argv[1], "-p")==0) { 
 
-        vector<int> iterations({10000, 20000 ,50000 ,75000, 100000});
+        vector<int> iterations({10000, 20000 ,50000 ,75000, 100000, 200000});
 
         if (argc != 3) {
             wordLength = 10;
