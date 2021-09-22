@@ -10,7 +10,10 @@ You will need g++ to compile this program - it is intended to work with c++11 an
 Clone this repertory, move it where you like and set it as your current directory
 
 Compile the source using:
-g++ -o app -Wall main.cpp Generator.cpp MergeSort.cpp
+
+```bash
+g++ -o app -Wall -O3 main.cpp Generator.cpp MergeSort.cpp
+```
 
 run the executable using ./app followed by the arguments as explained in the next section
 
